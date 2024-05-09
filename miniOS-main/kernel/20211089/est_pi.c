@@ -2,8 +2,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define NUM_POINTS 20000000
-#define NUM_THREADS 5
+#define NUM_POINTS 200000
+#define NUM_THREADS 3
 
 long incircle = 0;
 long ppt; // points per thread
